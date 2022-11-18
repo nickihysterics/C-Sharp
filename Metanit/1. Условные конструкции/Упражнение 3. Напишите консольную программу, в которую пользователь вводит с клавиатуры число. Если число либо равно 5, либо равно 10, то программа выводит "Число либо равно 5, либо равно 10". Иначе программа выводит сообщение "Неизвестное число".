@@ -1,0 +1,9 @@
+Console.WriteLine("Привет! Я - консольная программа, способная помочь тебе определить, соответствует ли введённое число заданным числам 5 и 10! \nВводи число:");
+int a = Convert.ToInt32(Console.ReadLine());
+if (a == 5)
+{ Console.WriteLine("Число равно пяти!"); }
+else if (a == 10)
+{ Console.WriteLine("Число равно десяти!"); }
+else { Console.WriteLine("Неизвестное число!"); }
+Console.WriteLine("Хорошего тебе дня!");
+Console.ReadKey(); 
