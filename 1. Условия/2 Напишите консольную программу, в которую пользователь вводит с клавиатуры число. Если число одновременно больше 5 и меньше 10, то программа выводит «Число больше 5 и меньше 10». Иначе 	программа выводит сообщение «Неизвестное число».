@@ -1,7 +1,0 @@
-Console.WriteLine("Привет! Я - консольная программа, которая поможет тебе определить, входит ли введённое тобой число в диапазон чисел от 5 до 10. \nВводи число:");
-int a = Convert.ToInt32(Console.ReadLine());
-if (a >= 5 && a <= 10)
-{ Console.WriteLine($"Число " + a + " больше или равно 5 при этом меньше или равно 10,"); }
-else { Console.WriteLine("Неизвевстное число."); }
-Console.WriteLine("Хорошего дня!");
-Console.ReadLine();
