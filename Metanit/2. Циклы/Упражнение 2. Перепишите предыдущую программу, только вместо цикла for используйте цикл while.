@@ -1,0 +1,12 @@
+Console.Write("Привет! Я - консольная программа по рассчёту начисления процентов на вклад. Введи сумму вклада и количество месяцев, а я посчитаю, сколько ты заработаешь. \nСумма: ");
+double a = Convert.ToDouble(Console.ReadLine());
+Console.Write("\nКоличество месяцев: ");
+int b = Convert.ToInt32(Console.ReadLine());
+int i = 1;
+while (i < b)
+{
+    a += (a / 100 * 7);
+    Console.WriteLine($"Сумма вкладов за {i} месяцев составит: {a}");
+    i++;
+}
+Console.ReadKey();
